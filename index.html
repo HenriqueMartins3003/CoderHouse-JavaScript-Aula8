@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Aula 8 Objetos</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="mb-3" id="mainContainer">
+        <label for="nomeCliente" class="form-label">Informe seu nome: </label>
+        <input
+          type="text"
+          class="form-control"
+          id="nomeCliente"
+          placeholder="Informe seu nome:"
+        />
+        <br />
+        <label for="sobrenomeCliente" class="form-label"
+          >Informe seu sobrenome:
+        </label>
+        <input
+          type="text"
+          class="form-control"
+          id="sobrenomeCliente"
+          placeholder="Informe seu sobrenome:"
+        />
+        <br />
+        <button class="btn btn-primary" onclick="mostrarCliente()">
+          Falar oi!
+        </button>
+      </div>
+
+      <div class="mb-3">
+        <article id="resultContainer"></article>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
